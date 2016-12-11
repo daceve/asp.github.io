@@ -1,0 +1,63 @@
+/*RESPONSIVE !!!!*/
+/*###### ###### ######
+  #    # #      #
+  ###### ####   #######
+  #   #  #            #
+  #    # ######  ######*/
+
+  @media screen and (max-width: 440px) {
+
+    /*ANIMASI LOGO*/
+    #full-logo{
+      display: inline;
+      opacity: 0;
+      transition: all 3s;
+      position: static;
+    }
+
+    .animasi-lampu{
+      text-align: center;
+      width: 100%;
+    }
+
+    /*END ANIMASI LOGO*/
+    p{
+      font-size: 11px;
+    }
+
+    .btn .learn-more{
+      width: 70%;
+    }
+
+    #greeting{
+      width: 95%;
+    }
+
+    .img-holder img{
+      width: 40%;
+    }
+
+    #front-end{
+      width: 95%;
+    }
+
+    #back-end{
+      width: 95%;
+    }
+
+    .img-work-holder{
+      width: 90%;
+    }
+
+    .copyright span{
+      display: none;
+    }
+
+    .copyright p{
+      font-size: 15px;
+    }
+
+    .katakata .b-2 h2{
+      font-size: 14px;
+    }
+  }

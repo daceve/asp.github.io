@@ -1,0 +1,496 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  transition: all 0.5s;
+}
+
+#full-logo{
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+.judul{
+  margin: 50px auto 10px auto;
+}
+
+.judul h1{
+  text-align: center;
+}
+
+.b-2{
+  width: 50%;
+  float: left;
+}
+
+.anti-float{
+  clear: both;
+}
+
+/*RUCKET BUTTON*/
+#btn-rocket{
+  position:fixed;
+  right: 5%;
+  bottom: 1%;
+  z-index: 1;
+  width: 4%;
+  opacity: 0;
+  /*transition:opacity 1.5s ,width 0.2s;*/
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: scale(0);
+}
+
+#btn-rocket:hover{
+  width: 4.5%;
+}
+
+#btn-rocket img{
+  max-width: 100%;
+}
+/*END ROCKET BUTTON*/
+/*========= NAV =========*/
+
+#menu{
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  position: fixed;
+  opacity: 0;
+}
+
+.menu-holder{
+  width: 80%;
+  margin: 0 auto;
+  height: 150px;
+  line-height: 150px;
+}
+
+.menus a{
+  float: right;
+  width: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+/*========= endNAV =========*/
+
+/*---------------------------------------------------------*/
+
+/*========= HEADER =========*/
+header{
+  height: 620px;
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head{
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  width: 100%;
+  height: 620px;
+  color: white;
+  padding-top: 30px;
+}
+
+header span{
+  font-weight: lighter;
+}
+.animasi-lampu{
+  width: 40%;
+  height: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.animasi-lampu img{
+  width: 30%;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.holder{
+  width: 80%;
+  margin: 40px auto;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.btn .learn-more a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  transition-delay: 0.2s;
+}
+
+.learn-more:hover h2{
+    font-weight: lighter;
+}
+
+.btn .learn-more{
+  margin: 30px auto;
+  border: 2px solid white;
+  width: 20%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn .learn-more:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30%;
+}
+/*ngatur posisi animasi*/
+#a1{
+  left: 35%;
+  top: 5%;
+  width: 50%;
+  z-index: 1;
+  width: 59%;
+  transition-delay: 0.2s;
+  opacity: 0;
+}
+
+#a5{
+  left: 52%;
+  top: 10%;
+  opacity: 0;
+
+  transition: all 1s;
+}
+
+#a4{
+  left: 47%;
+  top: 9%;
+  width: 20%;
+  opacity: 0;
+  transition: all 1.5s;
+  transition-delay: 1s;
+}
+
+#a2{
+  width: 24%;
+  left: 39.5%;
+  top: 0%;
+  z-index: 1;
+  opacity: 0;
+
+  transition: all 1s;
+  transition-delay: 1s;
+}
+
+#a3{
+  left: 22%;
+  top: 10%;
+  z-index: 1;
+  opacity: 0;
+
+  transition: all 1s;
+}
+
+#a7{
+  width: 0%;
+  top: 86%;
+  left: 45%;
+  opacity: 0;
+}
+
+/*========= endHEADER =========*/
+
+/*---------------------------------------------------------*/
+
+/*========= GREETING =========*/
+
+
+#greeting{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img-holder{
+  position: relative;
+  border: 1px solid white;
+  height: 350px;
+}
+.img-holder img{
+  width: 23%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 39%;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.slash{
+  float: left;
+  width: 2px;
+  height: 50%;
+  margin-top: 8%;
+  background-color: grey;
+  position: relative;
+  opacity: 0;
+  left: 65%;
+  transition: all 0.8s;
+  transition-delay: 0.2s;
+  z-index: 1;
+}
+
+.description-holder{
+  position: relative;
+  margin-top: 7%;
+  left: 32%;
+  transition: all 3s;
+  width: 70%;
+}
+
+.description-holder h3 {
+  margin-bottom: 10px;
+}
+
+.description-holder p {
+  text-align: justify;
+  color: #7e7e7e;
+  font-weight: lighter;
+}
+
+.description-holder div{
+  position: absolute;
+}
+
+.description-holder .penutup-desc{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  left: 0;
+  transition: all 1s;
+  transition-delay: 0.9s;
+}
+/*========= endGREETING =========*/
+
+/*---------------------------------------------------------*/
+
+/*========= SKILLS =========*/
+
+#front-end{
+  width: 80%;
+  margin: 7% auto;
+}
+
+.deskripsi-skill-html h3{
+  margin-bottom: 10px;
+}
+.deskripsi-skill-html p{
+    text-align: justify;
+    color: #7e7e7e;
+    font-weight: lighter;
+}
+
+.img-html{
+  text-align: center;
+}
+.img-html img{
+  width: 30%;
+  position: relative;
+  transition: all 2s;
+}
+
+#css{
+  z-index: 1;
+}
+#html , #js{
+  width: 23%;
+  opacity: 0;
+}
+#js{
+  left: 3.5%;
+}
+#html{
+  left: -3.5%;
+}
+
+/*BACKEND*/
+#back-end{
+  width: 80%;
+  margin: 7% auto;
+}
+
+.img-php{
+  position: relative;
+  text-align: center;
+}
+.img-php img{
+  position: absolute;;
+  width: 30%;
+  transition: all 1s;
+}
+
+#mysql{
+  left: 26%;
+  width: 27%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: all 2s;
+  transition-delay: 0.8s;
+}
+
+#php-logo , #php-capt{
+  left: 37%;
+  z-index: 1;
+}
+
+#sql-server{
+  left: 52%;
+  width: 27%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: all 2s;
+  transition-delay: 0.8s;
+}
+
+#php-capt{
+  margin-top: 0%;
+  width: 26%;
+  left: 39%;
+  opacity: 0;
+}
+
+#framework{
+  width: 80%;
+  margin: 7% auto 3% auto;
+}
+
+#framework .deskripsi-skill-html h3{
+  text-align: center;
+}
+
+.cards{
+  width: 80%;
+  margin: 5% auto;
+}
+
+.card{
+  width: 30%;
+  height: 260px;
+  float: left;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.card-img-holder{
+  width: 100%;
+  text-align: center;
+}
+.card-img-holder img{
+    width: 50%;
+    margin: 8% 0 ;
+}
+
+.mz img{
+  margin: 18.5% 0 ;
+}
+
+.ctengah{
+  margin: 0 4.7%;
+}
+
+.card h4{
+  text-align: center;
+  margin: 5% 0 3% 0;
+
+}
+
+.card p {
+  text-align: center;
+  color: #7e7e7e;
+}
+
+/*hover card*/
+.hover-card{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 260px;
+  top: 0;
+  transition: all 2s;
+}
+
+.btn-card{
+  text-align: center;
+  width: 50%;
+  opacity: 0;
+  margin:50% auto;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  padding-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.btn-card h4{
+  transition-delay: 1s;
+}
+
+.btn-card a{
+  color: white;
+}
+/*========= endSKILLS =========*/
+
+/*---------------------------------------------------------*/
+
+/*========= RECENT-WORK =========*/
+#recent-work{
+  margin: 10% auto 0 auto;
+  background-color: #d3d3d3;
+  padding-top: 1%;
+}
+
+.img-work-holder{
+  text-align: center;
+  margin: 8% auto 0 auto;
+  width: 70%;
+}
+
+.img-work-holder img{
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+
+
+/*========= endRECENT-WORK =========*/
+
+/*---------------------------------------------------------*/
+
+/*========= FOOTER =========*/
+footer{
+  padding: 2% 10% 0 10%;
+  background-color: #334560;
+  color: white;
+}
+
+.katakata .b-2{
+  max-width: 49.8%;
+}
+
+.copyright{
+  height: 70px;
+  line-height: 70px;
+  border-top: 1px solid white;
+}
+
+.katakata .b-2 img{
+  width: 10%;
+}
+
+.copyright span{
+  font-size: 12px;
+  float: right;
+}
+
+.footer-img-holder img{
+  float: left;
+}
+/*========= endFOOTER =========*/

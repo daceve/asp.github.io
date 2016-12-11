@@ -1,0 +1,102 @@
+/*RESPONSIVE !!!!*/
+/*###### ###### ######
+  #    # #      #
+  ###### ####   #######
+  #   #  #            #
+  #    # ######  ######*/
+
+  @media screen and (max-width: 770px) {
+    .b-2{
+      float: none;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .img-php{
+      height: 200px;
+    }
+
+    .card{
+      float: none;
+      width: 80%;
+      margin: 0 auto;
+      height: 100%;
+    }
+
+    .ctengah{
+      margin: 5% auto;
+    }
+
+    footer .b-2{
+      float:left;
+    }
+
+    .btn-card{
+      opacity: 1;
+      margin-top: 70%;
+    }
+
+    /*greeting*/
+    .penutup-desc{
+      display: none;
+    }
+
+    .img-holder{
+      position:static;
+      border: 1px solid white;
+      text-align: center;
+      height: 100%;
+    }
+
+    .img-holder img{
+      width: 30%;
+      border-radius: 50%;
+      position:static;
+      margin-top: 7%;
+    }
+
+    #item{
+      display: none;
+    }
+
+    .slash{
+      display: none;
+    }
+
+    .description-holder{
+      position: static;
+      margin-top: 7%;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    #greeting{
+      width: 80%;
+    }
+
+    .description-holder div{
+      position: static;
+    }
+
+
+    #a7{
+      top: 58%;
+    }
+
+    .animasi-lampu img{
+      padding-top: 16%;
+    }
+
+    .img-html{
+      text-align: center;
+      margin-bottom: 8%;
+    }
+
+    .img-php{
+      margin: 8% 0;
+    }
+
+    #skill .judul{
+      margin-top: 17%;
+    }
+  }
